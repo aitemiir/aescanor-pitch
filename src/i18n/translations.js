@@ -303,7 +303,7 @@ export const translations = {
       eyebrow: 'The team',
       headline: 'The people building this.',
       members: [
-        { name: 'Aitemirr Mudinov', role: 'CEO / Fractional CTO', bio: '4x founder, StartX S24.', photo: '/team/aitemir.jpg' },
+        { name: 'Aitemir Mudinov', role: 'CEO / Fractional CTO', bio: '4x founder, StartX S24.', photo: '/team/aitemir.jpg' },
         { name: 'Aliaskar Beyshebek', role: 'COO', bio: 'CityU, Business Analyst & Audit in Hong Kong for 5 years.', photo: '/team/aliaskar.jpg' },
       ],
     },
