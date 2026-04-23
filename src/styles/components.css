@@ -1,0 +1,137 @@
+/* ===== Buttons ===== */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 24px;
+  border-radius: var(--r-pill);
+  font-family: var(--font-sans);
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1;
+  transition: all var(--dur-base) var(--ease-std);
+  white-space: nowrap;
+}
+.btn-primary {
+  background: var(--brand-blue);
+  color: var(--white);
+  box-shadow: var(--shadow-sm);
+}
+.btn-primary:hover {
+  background: var(--blue-600);
+  color: var(--white);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+.btn-primary:active { background: var(--blue-700); transform: translateY(0); }
+
+.btn-ghost {
+  background: transparent;
+  color: var(--fg-1);
+}
+.btn-ghost:hover { color: var(--brand-blue); }
+
+.btn-lg { padding: 14px 28px; font-size: 16px; }
+.btn-full { width: 100%; }
+
+/* ===== Inputs ===== */
+.field { margin-bottom: 16px; }
+.field label {
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--fg-2);
+  margin-bottom: 6px;
+  padding-left: 4px;
+}
+.input, .select {
+  width: 100%;
+  padding: 12px 18px;
+  border-radius: var(--r-pill);
+  border: 1px solid var(--border-2);
+  background: var(--white);
+  box-shadow: var(--shadow-xs);
+  transition: border-color var(--dur-base) var(--ease-std), box-shadow var(--dur-base) var(--ease-std);
+}
+.input::placeholder { color: var(--fg-3); }
+.input:focus, .select:focus {
+  outline: none;
+  border-color: var(--brand-blue);
+  box-shadow: 0 0 0 4px rgba(1, 113, 225, 0.12);
+}
+.input.is-invalid { border-color: var(--danger); }
+.field-error {
+  font-size: 12px;
+  color: var(--danger);
+  margin-top: 6px;
+  padding-left: 18px;
+}
+
+/* ===== Pill tag ===== */
+.pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px;
+  border-radius: var(--r-pill);
+  background: var(--gray-100);
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--fg-2);
+}
+.pill-blue {
+  background: var(--blue-50);
+  color: var(--brand-blue);
+}
+.pill-dark { background: var(--black); color: var(--white); }
+
+/* ===== Wordmark ===== */
+.ae-wordmark {
+  display: inline-flex;
+  align-items: baseline;
+  text-decoration: none;
+  font-size: 22px;
+  line-height: 1;
+}
+.ae-wordmark .serif {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  color: var(--black);
+  letter-spacing: -0.02em;
+}
+.ae-wordmark .sans-blue {
+  font-family: var(--font-sans);
+  font-weight: 400;
+  color: var(--brand-blue);
+  margin-left: 6px;
+}
+.ae-wordmark.on-dark .serif { color: var(--white); }
+
+/* ===== Card ===== */
+.card {
+  background: var(--white);
+  border: 1px solid var(--border-1);
+  border-radius: var(--r-card);
+  padding: 28px;
+  box-shadow: var(--shadow-xs);
+  transition: box-shadow var(--dur-base) var(--ease-std), transform var(--dur-base) var(--ease-std);
+}
+
+/* ===== Glass ===== */
+.glass {
+  background: rgba(255, 255, 255, 0.64);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: var(--shadow-glass);
+}
+
+/* ===== Utility ===== */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}

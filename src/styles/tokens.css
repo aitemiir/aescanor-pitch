@@ -1,0 +1,100 @@
+/* ===== Fonts ===== */
+@font-face {
+  font-family: 'Tenor Sans';
+  src: url('/fonts/TenorSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('/fonts/SF-Pro-Display-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('/fonts/SF-Pro-Display-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('/fonts/SF-Pro-Display-Semibold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('/fonts/SF-Pro-Display-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* ===== Font stacks ===== */
+  --font-serif: 'Tenor Sans', 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-metric: 'SF Pro Display', 'Tenor Sans', 'Cormorant Garamond', Georgia, serif;
+
+  /* ===== Core colors ===== */
+  --black: #000000;
+  --white: #FFFFFF;
+  --brand-blue: #0171E1;
+  --dark-gray: #666666;
+  --medium-gray: #979797;
+
+  /* Neutrals */
+  --gray-50: #FAFAFA;
+  --gray-100: #F4F5F7;
+  --gray-200: #E9EAEE;
+  --gray-300: #D5D7DC;
+  --gray-400: #B0B3BA;
+
+  /* Blue scale */
+  --blue-50: #EAF3FC;
+  --blue-100: #CFE3F8;
+  --blue-300: #6FB0EF;
+  --blue-600: #0160C2;
+  --blue-700: #014EA0;
+
+  /* Semantic */
+  --fg-1: #000000;
+  --fg-2: #666666;
+  --fg-3: #979797;
+  --bg-1: #FFFFFF;
+  --bg-2: #FAFAFA;
+
+  --border-1: #E9EAEE;
+  --border-2: #D5D7DC;
+
+  --danger: #D92D20;
+
+  /* Shadows */
+  --shadow-xs: 0 1px 2px rgba(16, 24, 40, 0.04);
+  --shadow-sm: 0 2px 6px rgba(16, 24, 40, 0.06);
+  --shadow-md: 0 8px 24px rgba(16, 24, 40, 0.08);
+  --shadow-lg: 0 20px 48px rgba(16, 24, 40, 0.12);
+  --shadow-glass: 0 1px 0 rgba(255, 255, 255, 0.6) inset, 0 10px 40px rgba(16, 24, 40, 0.08);
+
+  /* Radii */
+  --r-input: 12px;
+  --r-card: 16px;
+  --r-panel: 24px;
+  --r-pill: 999px;
+
+  /* Layout */
+  --maxw: 1120px;
+  --pad-x: 24px;
+
+  /* Motion */
+  --ease-std: cubic-bezier(0.2, 0, 0, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-fast: 120ms;
+  --dur-base: 200ms;
+  --dur-slow: 360ms;
+}
