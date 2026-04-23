@@ -125,6 +125,7 @@ const css = `
   pointer-events: auto;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 16px;
   width: 100%;
   max-width: 1160px;
@@ -152,6 +153,8 @@ const css = `
   display: flex;
   align-items: center;
   gap: 12px;
+  margin-left: auto;
+  flex: 0 0 auto;
 }
 .lang-toggle {
   display: inline-flex;
@@ -231,5 +234,9 @@ const css = `
   .nav-cta { display: none; }
   .nav-right .lang-toggle { display: none; }
   .nav-burger { display: inline-flex; }
+  .nav-right {
+    width: auto;
+    justify-content: flex-end;
+  }
 }
 `;

@@ -27,7 +27,12 @@ export default function Cover({ onContactClick }) {
       >
         <motion.div variants={fadeUp} className="eyebrow cover-eyebrow">{t.eyebrow}</motion.div>
 
-        <motion.h1 variants={fadeUp} className="cover-brand">{t.brand}</motion.h1>
+        <motion.h1 variants={fadeUp} className="cover-brand">
+          <span className="ae-wordmark cover-wordmark" aria-label={t.brand}>
+            <span className="serif">Aescanor</span>
+            <span className="sans-blue">Partners</span>
+          </span>
+        </motion.h1>
 
         <motion.p variants={fadeUp} className="cover-headline">{t.headline}</motion.p>
 
@@ -86,11 +91,15 @@ const css = `
   margin-bottom: 8px;
 }
 .cover-brand {
-  font-family: var(--font-serif);
-  font-size: clamp(44px, 6.5vw, 80px);
   line-height: 1;
   margin: 0;
-  letter-spacing: -0.02em;
+}
+.cover-wordmark {
+  font-size: clamp(44px, 6.5vw, 80px);
+}
+.cover-wordmark .sans-blue {
+  font-family: var(--font-sans);
+  color: var(--brand-blue);
 }
 .cover-headline {
   font-family: var(--font-serif);

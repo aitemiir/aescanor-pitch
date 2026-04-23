@@ -1,4 +1,4 @@
-// Demo operational map data — generic mid-market company.
+// Demo operational map data - generic mid-market company.
 // Drives OperationsMap: L1 clusters → L2 process steps → L3 BPMN flow.
 
 export const mapData = {
@@ -47,13 +47,13 @@ export const mapData = {
         { k: '3', v: 'кластера' },
         { k: '75', v: 'процессов' },
       ],
-      tip: 'Узел с пульсом — нажмите для детализации',
+      tip: 'Узел с пульсом - нажмите для детализации',
     },
 
     l2: {
       title: 'Продажи и закрытие сделки',
       description: '7 шагов от входящего лида до подписанного договора',
-      tip: 'Узел с пульсом — точка для детализации',
+      tip: 'Узел с пульсом - точка для детализации',
       steps: [
         { id: 'qualify', label: 'Квалификация', desc: 'Определение ICP и бюджета' },
         { id: 'discovery', label: 'Discovery', desc: 'Сбор требований' },
@@ -70,7 +70,7 @@ export const mapData = {
       objective: 'Сократить цикл конверсии с 14 до 4 дней через автоматизацию квалификации и подготовки договоров.',
       labels: { objective: 'Цель', pains: 'Узкие места', tools: 'Инструменты' },
       pains: [
-        'Ручная квалификация — до 6 часов на лид',
+        'Ручная квалификация - до 6 часов на лид',
         'Задержки согласования договоров (3–5 дней)',
         'Нет единой истории по клиенту между менеджерами',
       ],
@@ -173,7 +173,7 @@ export const mapData = {
       objective: 'Cut the conversion cycle from 14 to 4 days via automated qualification and contract prep.',
       labels: { objective: 'Objective', pains: 'Pain points', tools: 'Tools' },
       pains: [
-        'Manual qualification — up to 6h per lead',
+        'Manual qualification - up to 6h per lead',
         'Contract approval delays (3–5 days)',
         'No shared customer history across reps',
       ],

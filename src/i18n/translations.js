@@ -1,11 +1,11 @@
-// Placeholders are wrapped with {p:"X"} — rendered via <Placeholder> component.
+// Placeholders are wrapped with {p:"X"} - rendered via <Placeholder> component.
 // Founder replaces values in this file directly.
 
 export const translations = {
   ru: {
     meta: {
-      title: 'Aescanor Partners — Инвестиционный питч',
-      description: 'Aescanor картирует, как компания реально работает — через массовые AI-интервью — и выдаёт приоритизированные рекомендации по ИИ за дни.',
+      title: 'Aescanor Partners - Инвестиционный питч',
+      description: 'Aescanor картирует, как компания реально работает - через массовые AI-интервью - и выдаёт приоритизированные рекомендации по ИИ за дни.',
     },
     nav: {
       slides: [
@@ -36,9 +36,9 @@ export const translations = {
       sourceLabel: 'Aescanor Pitch',
     },
     cover: {
-      eyebrow: 'Seed · B2B SaaS · AI',
+      eyebrow: 'B2B SaaS · AI',
       brand: 'Aescanor Partners',
-      headline: 'Мы помогаем компаниям понять, как они реально работают — и где внедрить ИИ.',
+      headline: 'Мы помогаем компаниям понять, как они реально работают - и где внедрить ИИ.',
       ctaPrimary: 'Смотреть питч',
       ctaSecondary: 'Связаться с нами',
       meta: [
@@ -53,13 +53,13 @@ export const translations = {
       cards: [
         { title: 'Консалтинг работает на выборке', body: '3–5 интервью с топ-менеджментом. Реальная картина операций остаётся невидимой.' },
         { title: 'ИИ внедряют вслепую', body: 'Без карты процессов технология ложится мимо. 84% AI-инициатив не выходят за рамки пилота.' },
-        { title: 'Результат — через месяцы', body: 'К тому времени окно возможностей сужается, а расходы уже понесены.' },
+        { title: 'Результат - через месяцы', body: 'К тому времени окно возможностей сужается, а расходы уже понесены.' },
       ],
-      statText: 'Глобальный рынок AI-консалтинга — $72 млрд к 2028 году. Реальных решений — единицы.',
+      statText: 'Глобальный рынок AI-консалтинга - $72 млрд к 2028 году. Реальных решений - единицы.',
     },
     solution: {
       eyebrow: 'Наше решение',
-      headline: 'Aescanor картирует, как компания реально работает — через массовые AI-интервью с сотрудниками — и выдаёт приоритизированные рекомендации по ИИ за дни.',
+      headline: 'Aescanor картирует, как компания реально работает - через массовые AI-интервью с сотрудниками - и выдаёт приоритизированные рекомендации по ИИ за дни.',
       pillars: [
         { title: 'Картирование', body: 'Живая операционная карта всей компании' },
         { title: 'Скорость', body: 'Полный цикл за 4–7 дней, не месяцев' },
@@ -73,7 +73,7 @@ export const translations = {
       trends: [
         { value: '↓ 90%', label: 'стоимость AI-инференса за 2 года' },
         { value: '× 3', label: 'рост числа AI-инструментов для бизнеса в 2024' },
-        { value: '84%', label: 'пилотов не масштабируются — спрос на внедрение растёт' },
+        { value: '84%', label: 'пилотов не масштабируются - спрос на внедрение растёт' },
       ],
     },
     market: {
@@ -84,13 +84,13 @@ export const translations = {
         { tag: 'SAM', value: '$8B', label: 'Средние и крупные компании, готовые к AI-диагностике (50–5000 сотр.)', highlight: true },
         { tag: 'SOM', value: '$120M', label: 'Достижимая доля в первые 3 года' },
       ],
-      paragraph: 'Мы входим через сегмент, который не обслуживается ни классическим консалтингом (слишком медленно и дорого), ни сырыми AI-инструментами (слишком сложно и без гарантий). Наша ниша — управляемая диагностика с предсказуемым результатом.',
+      paragraph: 'Мы входим через сегмент, который не обслуживается ни классическим консалтингом (слишком медленно и дорого), ни сырыми AI-инструментами (слишком сложно и без гарантий). Наша ниша - управляемая диагностика с предсказуемым результатом.',
     },
     howItWorks: {
       eyebrow: 'Как работает',
-      headline: 'От запуска до roadmap — за дни.',
+      headline: 'От запуска до roadmap - за дни.',
       steps: [
-        { n: '01', title: 'Интервью', body: 'AI-агенты проводят параллельные 45-минутные беседы с каждым сотрудником. Охват — вся компания, без исключений.' },
+        { n: '01', title: 'Интервью', body: 'AI-агенты проводят параллельные 45-минутные беседы с каждым сотрудником. Охват - вся компания, без исключений.' },
         { n: '02', title: 'Картирование', body: 'Система строит детальную операционную карту: процессы, инструменты, узкие места, зависимости.' },
         { n: '03', title: 'Анализ', body: 'AI выявляет приоритетные точки для внедрения ИИ. Выводы верифицирует команда экспертов Aescanor.' },
         { n: '04', title: 'Roadmap', body: 'Клиент получает конкретный трансформационный план с инструкциями и оценкой ROI.' },
@@ -139,7 +139,7 @@ export const translations = {
       ],
       feedbackTitle: 'Ранние отзывы пилотов',
       quotes: [
-        { text: '«Мы наконец увидели, что реально происходит в командах — без политики и догадок.»', role: 'CEO', company: 'B2B SaaS, 28 сотрудников' },
+        { text: '«Мы наконец увидели, что реально происходит в командах - без политики и догадок.»', role: 'CEO', company: 'B2B SaaS, 28 сотрудников' },
         { text: '«За 6 дней получили карту, которую до этого строили бы полгода.»', role: 'COO', company: 'Производство, 71 сотрудник' },
       ],
     },
@@ -147,8 +147,8 @@ export const translations = {
       eyebrow: 'Команда',
       headline: 'Люди, которые это строят.',
       members: [
-        { name: 'Айтемир Мудинов', role: 'CEO / Fractional CTO', bio: 'Стратег и технолог с опытом в AI и операционной трансформации. Ранее работал в консалтинге и стартапах, где внедрял системы аналитики и AI-интеграции для крупных клиентов.', photo: '/team/aitemir.jpg' },
-        { name: 'Алиаскар Бейшебеков', role: 'COO', bio: 'Operationalist с опытом масштабирования B2B SaaS и управления go-to-market. Ранее руководил операциями в нескольких быстрорастущих стартапах.', photo: '/team/aliaskar.jpg' },
+        { name: 'Айтемир Мудинов', role: 'CEO / Fractional CTO', bio: '4x founder, StartX S24.', photo: '/team/aitemir.jpg' },
+        { name: 'Алиаскар Бейшебеков', role: 'COO', bio: 'CityU, Business Analyst & Audit in Hong Kong for 5 years.', photo: '/team/aliaskar.jpg' },
       ],
     },
     footer: {
@@ -163,8 +163,8 @@ export const translations = {
 
   en: {
     meta: {
-      title: 'Aescanor Partners — Investor Pitch',
-      description: 'Aescanor maps how a company really operates — through mass AI-led employee interviews — and delivers prioritized AI recommendations in days.',
+      title: 'Aescanor Partners - Investor Pitch',
+      description: 'Aescanor maps how a company really operates - through mass AI-led employee interviews - and delivers prioritized AI recommendations in days.',
     },
     nav: {
       slides: [
@@ -195,9 +195,9 @@ export const translations = {
       sourceLabel: 'Aescanor Pitch',
     },
     cover: {
-      eyebrow: 'Seed · B2B SaaS · AI',
+      eyebrow: 'B2B SaaS · AI',
       brand: 'Aescanor Partners',
-      headline: 'We help companies understand how they really work — and where to apply AI.',
+      headline: 'We help companies understand how they really work - and where to apply AI.',
       ctaPrimary: 'View pitch',
       ctaSecondary: 'Get in touch',
       meta: [
@@ -218,7 +218,7 @@ export const translations = {
     },
     solution: {
       eyebrow: 'Our solution',
-      headline: 'Aescanor maps how a company really operates — through mass AI-led employee interviews — and delivers prioritized AI recommendations in days.',
+      headline: 'Aescanor maps how a company really operates - through mass AI-led employee interviews - and delivers prioritized AI recommendations in days.',
       pillars: [
         { title: 'Mapping', body: 'A live operational map of the entire company' },
         { title: 'Speed', body: 'Full cycle in 4–7 days, not months' },
@@ -232,7 +232,7 @@ export const translations = {
       trends: [
         { value: '↓ 90%', label: 'AI inference cost drop in 2 years' },
         { value: '× 3', label: 'growth in business AI tools in 2024' },
-        { value: '84%', label: "pilots don't scale — demand for real implementation is rising" },
+        { value: '84%', label: "pilots don't scale - demand for real implementation is rising" },
       ],
     },
     market: {
@@ -247,7 +247,7 @@ export const translations = {
     },
     howItWorks: {
       eyebrow: 'How it works',
-      headline: 'From kick-off to roadmap — in days.',
+      headline: 'From kick-off to roadmap - in days.',
       steps: [
         { n: '01', title: 'Interviews', body: 'AI agents run parallel 45-min conversations with every employee. Full coverage, no exceptions.' },
         { n: '02', title: 'Mapping', body: 'The system builds a detailed operational map: processes, tools, bottlenecks, dependencies.' },
@@ -295,7 +295,7 @@ export const translations = {
       ],
       feedbackTitle: 'Early pilot feedback',
       quotes: [
-        { text: '"We finally saw what\'s really happening across teams — without politics or guesswork."', role: 'CEO', company: 'B2B SaaS, 28 employees' },
+        { text: '"We finally saw what\'s really happening across teams - without politics or guesswork."', role: 'CEO', company: 'B2B SaaS, 28 employees' },
         { text: '"In 6 days we got a map that would have taken us half a year to build."', role: 'COO', company: 'Manufacturing, 71 employees' },
       ],
     },
@@ -303,8 +303,8 @@ export const translations = {
       eyebrow: 'The team',
       headline: 'The people building this.',
       members: [
-        { name: 'Aitemirr Mudinov', role: 'CEO / Fractional CTO', bio: 'Strategist and technologist with experience in AI and operational transformation. Previously worked in consulting and startups, implementing analytics and AI integration systems for major clients.', photo: '/team/aitemir.jpg' },
-        { name: 'Aliaskar Beyshebek', role: 'COO', bio: 'Operationalist with experience scaling B2B SaaS companies and managing go-to-market. Previously led operations at several high-growth startups.', photo: '/team/aliaskar.jpg' },
+        { name: 'Aitemirr Mudinov', role: 'CEO / Fractional CTO', bio: '4x founder, StartX S24.', photo: '/team/aitemir.jpg' },
+        { name: 'Aliaskar Beyshebek', role: 'COO', bio: 'CityU, Business Analyst & Audit in Hong Kong for 5 years.', photo: '/team/aliaskar.jpg' },
       ],
     },
     footer: {
